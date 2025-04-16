@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-primary;
+  }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent;
+  }
+  
+  .select-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent;
+  }
+  
+  .error-message {
+    @apply text-error text-sm mt-1;
+  }
+  
+  .tip-table {
+    @apply w-full border-collapse mt-4;
+  }
+  
+  .tip-row {
+    @apply border-b border-gray-200;
+  }
+  
+  .tip-cell {
+    @apply py-2 px-4;
+  }
+  
+  .suggested-tip {
+    @apply bg-accent bg-opacity-10 font-semibold;
+  }
+}
