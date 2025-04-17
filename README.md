@@ -22,7 +22,7 @@ A simple, user-friendly web application for calculating tips based on restaurant
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/alisonmeng/tip-calculator
 cd tip-calculator
 ```
 
